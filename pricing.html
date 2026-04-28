@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Mend House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif&display=swap');
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #fdfcf9; color: #2d2a26; }
+        h1, h2 { font-family: 'Instrument Serif', serif; }
+    </style>
+</head>
+<body class="p-8 md:p-16 max-w-5xl mx-auto">
+    <header class="mb-16 border-b border-stone-200 pb-8">
+        <h1 class="text-5xl mb-4">Mend House Pricing Strategy</h1>
+        <p class="text-xl text-stone-600 italic">Repairing the throwaway culture, one small appliance at a time.</p>
+    </header>
+
+    <section class="mb-16">
+        <h2 class="text-3xl mb-6">Tiered Membership Levels</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="border border-stone-300 p-8 rounded-lg bg-white shadow-sm flex flex-col">
+                <h3 class="text-2xl font-bold mb-2">The Mender</h3>
+                <p class="text-stone-500 mb-6">Hobbyist Level</p>
+                <div class="text-4xl font-bold mb-8">$59 <span class="text-lg font-normal text-stone-400">/mo</span></div>
+                <ul class="space-y-4 mb-10 flex-grow">
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-100 rounded-full flex items-center justify-center mr-3 text-xs">-</span>
+                        1 Guided Workshop per month
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-100 rounded-full flex items-center justify-center mr-3 text-xs">-</span>
+                        2 Open Bench Hours per month
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-100 rounded-full flex items-center justify-center mr-3 text-xs">-</span>
+                        10% discount on all parts
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-100 rounded-full flex items-center justify-center mr-3 text-xs">-</span>
+                        Basic toolkit access
+                    </li>
+                </ul>
+                <a href="https://buy.stripe.com/test_7sYeVcavu2fg8dugMz1ZS2B" class="block text-center bg-stone-800 text-white py-4 rounded font-medium hover:bg-stone-700 transition">Get Started</a>
+            </div>
+
+            <div class="border-2 border-stone-800 p-8 rounded-lg bg-stone-50 shadow-md flex flex-col relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-stone-800 text-white px-4 py-1 text-xs uppercase tracking-widest rounded-full">Most Popular</div>
+                <h3 class="text-2xl font-bold mb-2">The Restorer</h3>
+                <p class="text-stone-500 mb-6">Pro / Maker Level</p>
+                <div class="text-4xl font-bold mb-8">$129 <span class="text-lg font-normal text-stone-400">/mo</span></div>
+                <ul class="space-y-4 mb-10 flex-grow">
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-800 rounded-full flex items-center justify-center mr-3 text-xs text-white">-</span>
+                        Unlimited Open Bench Hours
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-800 rounded-full flex items-center justify-center mr-3 text-xs text-white">-</span>
+                        2 Guided Workshops per month
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-800 rounded-full flex items-center justify-center mr-3 text-xs text-white">-</span>
+                        20% discount on all parts
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-800 rounded-full flex items-center justify-center mr-3 text-xs text-white">-</span>
+                        Specialized tools (Ultrasonic/Soldering)
+                    </li>
+                    <li class="flex items-center">
+                        <span class="w-5 h-5 bg-stone-800 rounded-full flex items-center justify-center mr-3 text-xs text-white">-</span>
+                        Priority part ordering & storage
+                    </li>
+                </ul>
+                <a href="https://buy.stripe.com/test_bJe6oG5ba8DE2Ta9k71ZS2A" class="block text-center bg-stone-800 text-white py-4 rounded font-medium hover:bg-stone-700 transition">Go Pro</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-stone-100 p-8 rounded-lg mb-16">
+        <h2 class="text-3xl mb-4">Financial Feasibility</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <div class="text-stone-500 text-sm mb-1 uppercase tracking-tighter">Fixed Monthly OpEx</div>
+                <div class="text-2xl font-bold">$9,000</div>
+            </div>
+            <div>
+                <div class="text-stone-500 text-sm mb-1 uppercase tracking-tighter">Target Net Margin</div>
+                <div class="text-2xl font-bold">40%</div>
+            </div>
+            <div>
+                <div class="text-stone-500 text-sm mb-1 uppercase tracking-tighter">Required Rev</div>
+                <div class="text-2xl font-bold">$15,000</div>
+            </div>
+            <div>
+                <div class="text-stone-500 text-sm mb-1 uppercase tracking-tighter">Break-even Members</div>
+                <div class="text-2xl font-bold">115</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-stone-200 pt-8 text-stone-400 text-sm">
+        &copy; 2026 Mend House. All prices in USD. Financial projections based on 1,000 sq ft neighborhood retail space.
+    </footer>
+</body>
+</html>
